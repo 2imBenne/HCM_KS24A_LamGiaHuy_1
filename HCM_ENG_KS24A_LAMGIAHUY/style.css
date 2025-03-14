@@ -3,12 +3,6 @@
     padding:0;
     box-sizing: border-box;
 }
-/* body {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-} */
  header {
     margin-bottom:50px;
  }
@@ -44,6 +38,9 @@ button {
     background-color: #FF6464;
     color:white;
 }
+button:hover {
+    background-color: #d83333;
+}
 nav {
     display:flex;
     justify-content: flex-end;
@@ -60,7 +57,7 @@ a {
     font-weight:bold;
 }
 .second-display {
-    height:auto;
+    margin-top:100px;
     padding:148px;
     background-color: #EDF7FA;
 }
@@ -71,7 +68,7 @@ a {
 .content-box {
     display:flex;
     justify-content:space-between;
-    align-items:center ;
+    margin-left:171px;
 }
 .content-box p {
     color: #21243D;
@@ -82,17 +79,19 @@ a {
     background-color: #FFFFFF;
     width:438px;
     height:315px;
-
-    margin-top:69px;
+    margin-right:0;
+    margin-top:40px;
     margin-bottom:32px;
+    padding:20px;
 }
 .box2 {
     background-color: #FFFFFF;
-    width:418px;
-    height:295px;
-    margin-right:148px;
-    margin-top:69px;
+    width:438px;
+    height:315px;
+    margin-top:40px;
     margin-bottom:32px;
+    margin-right:150px;
+    padding:20px;
 }
 h2 {
     display:flex;
@@ -100,10 +99,6 @@ h2 {
     font-size:26px;
     font-family: "Heebo", sans-serif;
     justify-content: center;
-}
-.date-auth {
-    display:flex;
-    margin: 10px;
 }
 .featured-works {
     width: 60%;
@@ -140,7 +135,7 @@ h2 {
 }
 .year {
     background: #142850;
-    color: #95bdcb;
+    color: #FFFFFF;
     padding: 3px 8px;
     border-radius: 5px;
     font-size: 12px;
@@ -152,8 +147,8 @@ h2 {
     color: #666;
 }
 .work-content p {
-    font-size: 14px;
-    color: #666;
+    font-size: 16px;
+    color: #21243D;
     margin-top: 5px;
 }
 footer {
@@ -165,6 +160,6 @@ footer {
 .social-icons a {
     margin: 0 10px;
     text-decoration: none;
-    color: #333;
-    font-size: 40px;
+    color: #21243D;
+    font-size: 30px;
 }
